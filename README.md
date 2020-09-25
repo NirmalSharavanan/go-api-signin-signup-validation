@@ -5,20 +5,20 @@ Go lang API for sign in, sign up and JWT Validation.
 Navigate into my-app
 
 For signup and signin, 
-*go run main.go*
+_go run main.go_
 
 For JWT Validation, 
-*go run validate_api.go*
+_go run validate_api.go_
 
-###### Signup 
+##### Signup 
 ![signup](/images/signup.png)
 
-###### Signin 
+##### Signin 
 ![signin](/images/signin.png)
 
-###### Database 
+##### Database 
 ![database](/images/database.png)
 
-###### JWT Valdation 
+##### JWT Valdation 
 ![validation](/images/validation.png)
 

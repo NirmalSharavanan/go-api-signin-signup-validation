@@ -20,7 +20,7 @@ var (
 )
  
 func main() {
-  db, err = sql.Open("mysql", "root:<-db-password->@tcp(127.0.0.1:3306)/hrdb")
+  db, err = sql.Open("mysql", "root:<db-password>@tcp(127.0.0.1:3306)/<db-name>")
 	if err != nil {
 		panic(err.Error())
 	}
